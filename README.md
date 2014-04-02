@@ -20,6 +20,7 @@ BUDGET BLOX 4
 * node.js
 * marionette (backbone.js extension)
 * mongoose
-* less
 * require.js
-* bootstrap (_I considered using Foundation, but node.js will automatically compile less for me... it doesn't do anything with sass_)
+* I want to use Foundation this time around and forgo my use of Bootstrap. It's time for something new... but I need to learn more about it and how to integrate sass into my project.
+	* I found [this](https://coderwall.com/p/mhy10q) and [this](https://github.com/anotheruiguy/node-sass-boilerplate), which might shed some light on how to do this
+	* I'm also wondering if I should use coffeescript and jade as well... Cleaner-looking markup, but I don't really know anything about either one... I'm thinking no... I'll stick with what I know to get this up and running for now.
