@@ -3,7 +3,7 @@ BUDGET BLOX 4
 
 > A new way to do budgeting, using a cash-overflow / coin-separator idea. Spend money directly out your budgets as you get income for those budgets. Budgets are prioritized and use various prioritized banks automatically.
 
-# PRIMARY GOALS
+## PRIMARY GOALS
 * **Start with Simplicity**
 	* Each view will be a separate page that updates the router - _no modals!_
 	* No drag-and-drop
@@ -16,7 +16,7 @@ BUDGET BLOX 4
 * **REALLY start with simplicity**
 	* As much as I want to start making it pretty from the start, I think I really need to focus on the actual software this time around. I'll plan on making it pretty once I get it all functional.
 
-# Technology Used
+## Technology Used
 * node.js
 * marionette (backbone.js extension)
 * mongoose
