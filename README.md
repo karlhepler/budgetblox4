@@ -3,6 +3,15 @@ BUDGET BLOX 4
 
 > A new way to do budgeting, using a cash-overflow / coin-separator idea. Spend money directly out your budgets as you get income for those budgets. Budgets are prioritized and use various prioritized banks automatically.
 
+## HOW IT BASICALLY WORKS
+* You store your money in various **wallets** _(ie. Cash Box, Checking Account, etc)_
+* You set **budgets** that automatically fill from the available funds in your wallets up based on priority
+* You actually spend the money out of the budget itself, which will automatically take money from one or more of the wallets, based on the wallet priority
+	* In effect, the wallet becomes fairly invisible... the budget itself is what you would pay attention to when spending
+	* That being said, you may need to adjust which wallet the money was spent from, so you should be able to see and optionally edit this as you enter the transaction
+
+> I like to imagine this like buckets of water. Your income is water coming in. Your budgets are buckets of various sizes, arranged vertically and tipped a bit. Once you fill up one bucket with water, the additional water will spill over into the next bucket and so-on until you run out of water to pour. You can reorganize the buckets at any time, and then re-pour the water so that it fills them up in the new order. There will also be an ability define budget offsets. This is like having anther bucket of water that you are holding. A negative offset means that you would collect a certain amount of water in your handy bucket first, before filling up the offset bucket. A positive offset would have you pour your handy bucket into the offset bucket before starting the main water pour. This is useful if something important filled and you're out of water (money), but you want to spend money in a different budget... but you don't want to reorganize your budgets because you like that budget's level of importance... so you basically give that budget a head-start.
+
 ## PRIMARY GOALS
 * **Start with Simplicity**
 	* Each view will be a separate page that updates the router - _no modals!_
