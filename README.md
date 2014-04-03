@@ -31,7 +31,7 @@ BUDGET BLOX 4
 * mongoose
 * require.js
 * I want to use Foundation this time around and forgo my use of Bootstrap. It's time for something new... but I need to learn more about it and how to integrate sass into my project.
-	* I found [this](https://coderwall.com/p/mhy10q) and [this](https://github.com/anotheruiguy/node-sass-boilerplate), which might shed some light on how to do this
+	* I found [this](http://www.designedbyasaint.co.uk/foundation-5/install-foundation-5) and [this](https://coderwall.com/p/mhy10q) and [this](https://github.com/anotheruiguy/node-sass-boilerplate), which might shed some light on how to do this
 	* I'm also wondering if I should use coffeescript and jade as well... Cleaner-looking markup, but I don't really know anything about either one... I'm thinking no... I'll stick with what I know to get this up and running for now.
 
 ## Other things
