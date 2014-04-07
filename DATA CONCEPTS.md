@@ -33,3 +33,7 @@ DATA CONCEPTS
 	- _Defaults to false_
 	- If set to true, it will automatically create a transaction on the due date.
 	- The add/edit transaction window will be used to customize this - some portions (like date and budget name) will be locked from editing
+8. Flexible
+	- _Defaults to true_
+	- A flexible budget will **not** change month-to-month, **however**, you may be recommended a change based on your projected income _(based on percentage of income from last several months and including the recommended percentage if available... only applicable if the amount with percentage is less than it was last month)_
+	- An inflexible budget is something like a bill... in which case, you will have recommendations helping you reduce the cost of this bill by switching to a different provider
