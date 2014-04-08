@@ -30,9 +30,15 @@ BUDGET BLOX 4
 * marionette (backbone.js extension)
 * mongoose
 * require.js
-* I want to use Foundation this time around and forgo my use of Bootstrap. It's time for something new... but I need to learn more about it and how to integrate sass into my project.
-	* I found [this](http://www.designedbyasaint.co.uk/foundation-5/install-foundation-5) and [this](https://coderwall.com/p/mhy10q) and [this](https://github.com/anotheruiguy/node-sass-boilerplate), which might shed some light on how to do this
-	* I'm also wondering if I should use coffeescript and jade as well... Cleaner-looking markup, but I don't really know anything about either one... I'm thinking no... I'll stick with what I know to get this up and running for now.
+* Bootstrap 3 with the [Flatly Theme](http://bootswatch.com/flatly/)
+	- using colors from [Bootflat](http://bootflat.github.io/documentation.html)
+	- Use [iCheck](http://fronteed.com/iCheck/) for checkboxes
+	- Use [Bootstrap Select](http://silviomoreto.github.io/bootstrap-select/) for drop-downs
+		- Check out [this dropdown](http://flatuicolors.com/)
+	- Extremely subtle rounded corners
+	- Possibly very very slight shading under buttons and blocks
+	- Try to avoid using modals if possible
+	- Possibly use [Bootstrap Growl](http://bootstrap-growl.remabledesigns.com/)
 
 ## Other things
 I am going to .gitignore all of the node modules and the vendor folder, so _bower install_ will need to be run in the app/dev directory and _npm install_ will need to be run in the server directory
