@@ -1,0 +1,22 @@
+{
+  "name": "BudgetBlox",
+  "version": "4.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "ejs": "*",
+    "less-middleware": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "datejs": "*",
+    "accounting": "*",
+    "rrule": "*",
+    "validator": "*"
+  },
+  "engines": {
+    "node": "*",
+    "npm": "*"
+  }
+}

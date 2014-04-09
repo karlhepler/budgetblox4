@@ -1,0 +1,29 @@
+// Bootstrap base
+@import '../scripts/vendor/bootstrap/less/bootstrap';
+
+// Bootstrap theme
+@import 'themes/lumen/variables';
+@import 'themes/lumen/bootswatch';
+
+// Custom Colors
+@import 'custom_colors';
+
+// Views
+@import 'mockup';
+
+// CUSTOM GLOBALS ----------------------------------------//START//
+
+	@brand-primary: @color-aqua;
+	@brand-success: @color-grass;
+	@brand-info:    @color-mint;
+	@brand-warning: @color-sunflower;
+	@brand-danger:  @color-grapefruit;
+
+// CUSTOM GLOBALS ------------------------------------------//END//
+
+/*
+	The main container
+ */
+#main {
+	.container-fixed();
+}
