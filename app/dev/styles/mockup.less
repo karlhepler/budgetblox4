@@ -1,3 +1,80 @@
 #mockup-container {
 	.make-row();
+
+	.left-pane {
+		.make-sm-column(4);
+
+		.budget-block {
+			.panel;
+			.panel-body;
+
+			hr {
+				margin-top: 0;
+			}
+
+			.header {
+				.clearfix;
+
+				td:first-of-type {
+					width: 100%;
+					max-width: 1px;
+					white-space: nowrap;
+					overflow-x: hidden;
+					overflow-y: visible;
+					text-overflow: ellipsis;
+					vertical-align: bottom;
+					padding-right: 1em;
+				}
+
+				.name {
+					.h4;
+					line-height: inherit;
+				}
+
+				.property-container {
+					height: 2em;
+
+					.property {
+						.label;
+						.label-warning;
+					}
+				}				
+
+				a.balance {
+					.btn;
+					.btn-default;					
+					position: relative;
+					text-decoration: none;
+
+					&:after {
+						content: "";
+						height: 100%;
+						width: 80%; // To adjust the graph, just adjust the width of this!
+						border: 1px solid fade(@brand-info, 50%);						
+						border-top: none;
+						border-bottom-width: 4px;
+						box-sizing: content-box;
+						position: absolute;
+						top: 0;
+						left: -1px;						
+						background-color: fade(@brand-info, 50%);
+						border-radius: inherit;
+					}
+
+					&:hover:after {
+						border-bottom-width: 3px;
+					}
+
+					span {
+						z-index: 1;
+						position: relative;
+						text-shadow: 1px 1px 0 fade(black, 20%);
+						color: white;
+						font-size: @font-size-large;
+						font-weight: normal;
+					}
+				}
+			}
+		}
+	}
 }
