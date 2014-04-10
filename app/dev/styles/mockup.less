@@ -22,6 +22,10 @@
 			position:      relative;
 			margin-bottom: 0;
 
+			dl {
+				margin-bottom: 0;
+			}
+
 			.header {
 				.clearfix;
 
@@ -98,12 +102,15 @@
 				.well;
 				background-color: @color-darkgrey;
 				color: @color-mediumgrey;
+				position: relative;
+				z-index: 1;
+				margin-top: -28px;
 
 				.budget-limit {
 					.well;
 					background-color: fade(@color-darkgrey, 100%);
 
-					padding:6px 12px 19px;
+					padding:6px 14px 19px;
 					.border-bottom-radius(0);
 					border-bottom: none;
 
@@ -113,9 +120,11 @@
 					color:       white;
 					font-size:   @font-size-large;
 					font-weight: normal;
+					border-left: none;
+					font-weight: bold;
 
-					right: 15px;
-					top: 19px;
+					right: -1px;
+					top: -23px;
 				}
 
 				table {
@@ -128,6 +137,9 @@
 							border-bottom: 1px solid @color-mediumgrey;
 							padding-bottom: 10px;
 						}
+						// td:first-of-type {
+						// 	text-align: left;
+						// }
 					}
 					tr:nth-of-type(3n+1) {
 						td {
@@ -150,7 +162,7 @@
 					}
 					.math {
 						width: 100%;
-						padding-right: 1em;
+						// padding-right: 1em;
 					}
 					.transaction-total {
 						border-bottom: 1px solid @color-mediumgrey;
@@ -171,15 +183,18 @@
 						}
 					}
 				}
+
+				.add-transaction-btn {
+					.btn;
+					.btn-default;
+					.btn-xs;
+					float: left;
+				}
 			}
 
 			.footer {
 
-				min-height: 20px;
-
-				dl {
-					margin-bottom: 0;
-				}
+				min-height: 20px;				
 
 				.edit-btn {
 					color:        @color-lightgrey;
@@ -195,7 +210,7 @@
 				}
 				.edit-btn:hover {
 					color: @color-mediumgrey;
-				}
+				}				
 			}
 		}
 	}

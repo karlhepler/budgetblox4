@@ -35,11 +35,12 @@
             <td class="transaction-total"><span class="expense">25.00</span></td>
           </tr>
           <tr>
-            <td colspan="2" class="balance">25.00</td>
+            <td><button class="add-transaction-btn">Add Transaction</button></td>
+            <td class="balance">25.00</td>
           </tr>
 
           <tr>
-            <td class="bank-name">Cash Box</td>
+            <td class="bank-name">Bank of America</td>
             <td class="bank-starting">50.00</td>
           </tr>
           <tr>
@@ -47,11 +48,12 @@
             <td class="transaction-total"><span class="expense">25.00</span></td>
           </tr>
           <tr>
-            <td colspan="2" class="balance">25.00</td>
+            <td><button class="add-transaction-btn">Add Transaction</button></td>
+            <td class="balance">25.00</td>
           </tr>
 
           <tr>
-            <td class="bank-name">Cash Box</td>
+            <td class="bank-name">Another Bank</td>
             <td class="bank-starting">50.00</td>
           </tr>
           <tr>
@@ -59,7 +61,8 @@
             <td class="transaction-total"><span class="expense">25.00</span></td>
           </tr>
           <tr>
-            <td colspan="2" class="balance">25.00</td>
+            <td><button class="add-transaction-btn">Add Transaction</button></td>
+            <td class="balance">25.00</td>
           </tr>
           
           <tr>
@@ -73,12 +76,7 @@
       <dl>
         <dt>$50.00 needed to fill budget</dt>
         <dd>Expected in 3 days</dd>
-      </dl>
-
-      <div class="btn-group btn-group-justified">
-        <a href="#" class="btn btn-default">Show Transactions</a>
-        <a href="#" class="btn btn-default">Add Transaction</a>
-      </div>
+      </dl>      
 
     </div>
 
