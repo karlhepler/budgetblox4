@@ -108,7 +108,8 @@
 
 				.budget-limit {
 					.well;
-					background-color: fade(@color-darkgrey, 100%);
+					background-color: @color-darkgrey;
+					text-decoration: none;
 
 					padding:6px 14px 19px;
 					.border-bottom-radius(0);
@@ -186,9 +187,14 @@
 
 				.add-transaction-btn {
 					.btn;
-					.btn-default;
+					.btn-link;
 					.btn-xs;
 					float: left;
+				}
+				.add-transaction {
+					float:left;
+					font-size: @font-size-small;
+					color: @color-aqua;
 				}
 			}
 

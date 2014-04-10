@@ -31,12 +31,11 @@
             <td class="bank-starting">50.00</td>
           </tr>
           <tr>
-            <td class="math">-</td>
+            <td class="math"><a href="#" class="add-transaction">Add Transaction</a>-</td>
             <td class="transaction-total"><span class="expense">25.00</span></td>
           </tr>
           <tr>
-            <td><button class="add-transaction-btn">Add Transaction</button></td>
-            <td class="balance">25.00</td>
+            <td colspan="2" class="balance">25.00</td>
           </tr>
 
           <tr>
@@ -44,12 +43,11 @@
             <td class="bank-starting">50.00</td>
           </tr>
           <tr>
-            <td class="math">-</td>
+            <td class="math"><a href="#" class="add-transaction">Add Transaction</a>-</td>
             <td class="transaction-total"><span class="expense">25.00</span></td>
           </tr>
           <tr>
-            <td><button class="add-transaction-btn">Add Transaction</button></td>
-            <td class="balance">25.00</td>
+            <td colspan="2" class="balance">25.00</td>
           </tr>
 
           <tr>
@@ -57,12 +55,11 @@
             <td class="bank-starting">50.00</td>
           </tr>
           <tr>
-            <td class="math">-</td>
+            <td class="math"><a href="#" class="add-transaction">Add Transaction</a>-</td>
             <td class="transaction-total"><span class="expense">25.00</span></td>
           </tr>
           <tr>
-            <td><button class="add-transaction-btn">Add Transaction</button></td>
-            <td class="balance">25.00</td>
+            <td colspan="2" class="balance">25.00</td>
           </tr>
           
           <tr>
