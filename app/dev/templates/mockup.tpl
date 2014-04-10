@@ -3,7 +3,7 @@
   
   <!-- BUDGET BLOCK [START] -->
   <div class="budget-block">
-  
+
     <table class="header">
       <tbody>
         <tr>
@@ -20,7 +20,68 @@
       </tbody>
     </table>
     
-    <div class="meta"></div>
+    <div class="meta">
+
+      <a class="budget-limit" href="#">400.00</a>
+      
+      <table>
+        <tbody>
+          <tr>
+            <td class="bank-name">Cash Box</td>
+            <td class="bank-starting">50.00</td>
+          </tr>
+          <tr>
+            <td class="math">-</td>
+            <td class="transaction-total"><span class="expense">25.00</span></td>
+          </tr>
+          <tr>
+            <td colspan="2" class="balance">25.00</td>
+          </tr>
+
+          <tr>
+            <td class="bank-name">Cash Box</td>
+            <td class="bank-starting">50.00</td>
+          </tr>
+          <tr>
+            <td class="math">-</td>
+            <td class="transaction-total"><span class="expense">25.00</span></td>
+          </tr>
+          <tr>
+            <td colspan="2" class="balance">25.00</td>
+          </tr>
+
+          <tr>
+            <td class="bank-name">Cash Box</td>
+            <td class="bank-starting">50.00</td>
+          </tr>
+          <tr>
+            <td class="math">-</td>
+            <td class="transaction-total"><span class="expense">25.00</span></td>
+          </tr>
+          <tr>
+            <td colspan="2" class="balance">25.00</td>
+          </tr>
+          
+          <tr>
+            <td>Available Balance</td>
+            <td class="available-balance"><span class="income">75.00</span></td>
+          </tr>
+
+        </tbody>
+      </table>
+
+      <dl>
+        <dt>$50.00 needed to fill budget</dt>
+        <dd>Expected in 3 days</dd>
+      </dl>
+
+      <div class="btn-group btn-group-justified">
+        <a href="#" class="btn btn-default">Show Transactions</a>
+        <a href="#" class="btn btn-default">Add Transaction</a>
+      </div>
+
+    </div>
+
     <div class="footer">
 
       <dl>
