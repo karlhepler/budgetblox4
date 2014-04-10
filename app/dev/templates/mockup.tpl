@@ -49,22 +49,10 @@
           <tr>
             <td colspan="2" class="balance">25.00</td>
           </tr>
-
-          <tr>
-            <td class="bank-name">Another Bank</td>
-            <td class="bank-starting">50.00</td>
-          </tr>
-          <tr>
-            <td class="math"><a href="#" class="add-transaction">Add Transaction</a>-</td>
-            <td class="transaction-total"><span class="expense">25.00</span></td>
-          </tr>
-          <tr>
-            <td colspan="2" class="balance">25.00</td>
-          </tr>
           
           <tr>
             <td>Available Balance</td>
-            <td class="available-balance"><span class="income">75.00</span></td>
+            <td class="available-balance"><span class="income">132.43</span></td>
           </tr>
 
         </tbody>
