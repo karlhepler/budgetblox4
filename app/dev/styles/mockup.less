@@ -1,34 +1,46 @@
 #mockup-container {
 	.make-row();
 
+
+
 	.left-pane {
-		.make-sm-column(4);
+		.make-sm-column(5);
+		.make-md-column(4);
+		padding-left:  0;
+		padding-right: 0;
+
+		/* Small devices (tablets, 768px and up) */
+		@media (min-width: @screen-sm-min) {
+			padding-left:  15px;
+			padding-right: 15px;	
+		}
 
 		.budget-block {
 			.panel;
 			.panel-body;
 
-			hr {
-				margin-top: 0;
-			}
+			position:      relative;
+			margin-bottom: 0;
 
 			.header {
 				.clearfix;
 
 				td:first-of-type {
-					width: 100%;
-					max-width: 1px;
-					white-space: nowrap;
-					overflow-x: hidden;
-					overflow-y: visible;
-					text-overflow: ellipsis;
+					width:          100%;
+					max-width:      1px;
+					white-space:    nowrap;
+					overflow-x:     hidden;
+					overflow-y:     visible;
+					text-overflow:  ellipsis;
 					vertical-align: bottom;
-					padding-right: 1em;
+					padding-right:  1em;
 				}
 
 				.name {
 					.h4;
-					line-height: inherit;
+					line-height:    inherit;
+					text-transform: uppercase;
+					font-weight:    bold;
 				}
 
 				.property-container {
@@ -43,36 +55,63 @@
 				a.balance {
 					.btn;
 					.btn-default;					
-					position: relative;
+					position:        relative;
 					text-decoration: none;
 
-					&:after {
-						content: "";
-						height: 100%;
-						width: 80%; // To adjust the graph, just adjust the width of this!
-						border: 1px solid fade(@brand-info, 50%);						
-						border-top: none;
+					.graph {
+						content:             "";
+						height:              100%;
+						width:               80%; // To adjust the graph, just adjust the width of this!
+						border:              1px solid fade(@brand-info, 50%);						
+						border-top:          none;
 						border-bottom-width: 4px;
-						box-sizing: content-box;
-						position: absolute;
-						top: 0;
-						left: -1px;						
-						background-color: fade(@brand-info, 50%);
-						border-radius: inherit;
+						box-sizing:          content-box;
+						position:            absolute;
+						top:                 0;
+						left:                -1px;						
+						background-color:    fade(@brand-info, 50%);
+						border-radius:       inherit;
+						
+						.transition(width 0.5s ease-out);
 					}
 
-					&:hover:after {
+					&:hover .graph {
 						border-bottom-width: 3px;
 					}
 
 					span {
-						z-index: 1;
-						position: relative;
+						z-index:     1;
+						position:    relative;
 						text-shadow: 1px 1px 0 fade(black, 20%);
-						color: white;
-						font-size: @font-size-large;
+						color:       white;
+						font-size:   @font-size-large;
 						font-weight: normal;
 					}
+				}
+			}
+
+			.footer {
+
+				min-height: 20px;
+
+				dl {
+					margin-bottom: 0;
+				}
+
+				.edit-btn {
+					color:        @color-lightgrey;
+					position:     absolute;
+					right:        0;
+					bottom:       0;
+					width:        40px;
+					height:       40px;
+					padding-top:  10px;
+					padding-left: 10px;
+
+					.transition(color 0.2s ease);
+				}
+				.edit-btn:hover {
+					color: @color-mediumgrey;
 				}
 			}
 		}
