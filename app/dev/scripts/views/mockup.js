@@ -30,6 +30,21 @@ function(
 		template: templates.mockup,
 
 		// Give it an ID
-		id: 'mockup-container'
+		id: 'mockup-container',
+
+		// Do some DOM stuff
+		onShow: function() {
+			this.$el.find('.balance').click(function(e) {
+				e.preventDefault();
+
+				$(this).parents('.budget-block').find('.meta').show();
+			});
+			this.$el.find('.budget-limit').click(function(e) {
+				e.preventDefault();
+
+				$(this).parents('.budget-block').find('.meta').hide();
+			});
+		}
+
 	});
 });

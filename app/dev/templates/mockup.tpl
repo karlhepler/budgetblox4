@@ -20,7 +20,7 @@
       </tbody>
     </table>
     
-    <div class="meta">
+    <div class="meta" style="display:none;">
 
       <a class="budget-limit" href="#">400.00</a>
       
