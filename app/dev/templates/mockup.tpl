@@ -20,7 +20,7 @@
       </tbody>
     </table>
     
-    <div class="meta" style="display:none;">
+    <div class="meta squashed">
 
       <a class="budget-limit" href="#">400.00</a>
       
@@ -61,7 +61,9 @@
       <dl>
         <dt>$50.00 needed to fill budget</dt>
         <dd>Expected in 3 days</dd>
-      </dl>      
+      </dl>
+
+      <a href="#" class="close"><span class="glyphicon glyphicon-chevron-up"></span></a>
 
     </div>
 
@@ -77,6 +79,8 @@
     </div>
 
   </div> <!-- BUDGET BLOCK [END] -->
+
+  
 
 
 

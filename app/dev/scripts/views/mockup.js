@@ -37,12 +37,12 @@ function(
 			this.$el.find('.balance').click(function(e) {
 				e.preventDefault();
 
-				$(this).parents('.budget-block').find('.meta').show();
+				$(this).parents('.budget-block').find('.meta').removeClass('squashed');
 			});
-			this.$el.find('.budget-limit').click(function(e) {
+			this.$el.find('.budget-limit, .close').click(function(e) {
 				e.preventDefault();
 
-				$(this).parents('.budget-block').find('.meta').hide();
+				$(this).parents('.budget-block').find('.meta').addClass('squashed');
 			});
 		}
 

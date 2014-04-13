@@ -100,17 +100,21 @@
 			.meta {
 				
 				.well;
-				background-color: @brand-info;
+				background-color: @color-darkgrey;
 				color: @color-mediumgrey;
 				position: relative;
 				z-index: 1;
 				margin-top: -28px;
-				margin-bottom: 5px;				
+				margin-bottom: 5px;
+				min-height: 0;
+				max-height: 500px;
+
+				.transition(all 0.2s ease);				
 
 				.budget-limit {
 					.well;
-					background-color: @brand-info;
-					text-decoration: none;
+					background-color: @color-darkgrey;
+					text-decoration: none;					
 
 					padding:6px 14px 19px;
 					.border-bottom-radius(0);
@@ -126,6 +130,8 @@
 
 					right: -1px;
 					top: -23px;
+
+					.transition(all 0.2s ease);
 				}
 
 				table {
@@ -141,9 +147,6 @@
 							border-bottom: 1px solid @color-mediumgrey;
 							padding-bottom: 10px;
 						}
-						// td:first-of-type {
-						// 	text-align: left;
-						// }
 					}
 					tr:nth-of-type(3n+1) {
 						td {
@@ -166,7 +169,7 @@
 					}
 					.math {
 						width: 100%;
-						// padding-right: 1em;
+						padding-right: 0.5em;
 					}
 					.transaction-total {
 						border-bottom: 1px solid @color-mediumgrey;
@@ -199,7 +202,28 @@
 					font-size: @font-size-small;
 					color: @color-aqua;
 				}
-			}
+
+				.close {
+					color: white;
+					position: absolute;
+					right: 15px;
+					bottom: 15px;
+					font-size: @font-size-base;
+					.transition(opacity 0.2s ease);
+				}
+
+				&.squashed {
+					max-height: 0;
+					overflow: hidden;
+					padding: 0;
+					border: none;
+					margin-bottom: 30px;
+					opacity: 0;
+					.budget-limit {
+						top: -50px;
+					}
+				}
+			}			
 
 			.footer {
 
