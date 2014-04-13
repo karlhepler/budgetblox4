@@ -42,3 +42,8 @@ BUDGET BLOX 4
 
 ## Other things
 I am going to .gitignore all of the node modules and the vendor folder, so _bower install_ will need to be run in the app/dev directory and _npm install_ will need to be run in the server directory
+
+### Additional Notes
+I like this [flat calendar idea](http://designshack.net/design/vector-calendar-widget)
+I found a [css generator for long shadows](http://sandbox.juan-i.com/longshadows/) I might want to think about using
+I also found a [scss mixin](http://codepen.io/awesomephant/pen/mAxHz) for it that I'm sure I can convert to less

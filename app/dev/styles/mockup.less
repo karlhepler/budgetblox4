@@ -191,16 +191,17 @@
 					}
 				}
 
-				.add-transaction-btn {
-					.btn;
-					.btn-link;
-					.btn-xs;
-					float: left;
-				}
 				.add-transaction {
 					float:left;
 					font-size: @font-size-small;
-					color: @color-aqua;
+					color: lighten(@color-aqua, 20%);
+					.transition(all 0.2s ease);
+					text-decoration: none;
+					padding-top: 5px;
+
+					&:hover {
+						color: @color-aqua;
+					}
 				}
 
 				.close {
