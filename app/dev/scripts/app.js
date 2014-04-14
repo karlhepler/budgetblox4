@@ -4,13 +4,17 @@ define([
 
 	'views/mockup',
 
+	'fastclick',
+
 	'bootstrap'
 ],
 function(
 	Marionette,
 	vent,
 
-	mockup
+	mockup,
+
+	FastClick
 
 ) { 'use strict';
 
@@ -23,7 +27,7 @@ function(
 	});
 
 	app.addInitializer(function() {
-
+		FastClick.attach(document.body);
 	});
 
 	/**

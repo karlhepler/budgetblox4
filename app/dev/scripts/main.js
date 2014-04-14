@@ -12,7 +12,9 @@ require.config({
 		'underscore': 					'vendor/underscore-amd/underscore',
 		'tpl': 									'vendor/requirejs-tpl/tpl',
 		'bootstrap': 						'vendor/bootstrap/dist/js/bootstrap',
-		'jqueryui': 						'vendor/jquery-ui-amd/jquery-ui-1.10.0/jqueryui'
+		'jqueryui': 						'vendor/jquery-ui-amd/jquery-ui-1.10.0/jqueryui',
+
+		'fastclick': 						'vendor/fastclick/lib/fastclick'
 	},
 	shim: {
 		'bootstrap': {

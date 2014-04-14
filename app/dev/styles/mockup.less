@@ -109,7 +109,7 @@
 				min-height: 0;
 				max-height: 500px;
 
-				.transition(all 0.2s ease);				
+				.transition(padding 0.2s ease);				
 
 				.budget-limit {
 					.well;
@@ -131,7 +131,7 @@
 					right: -1px;
 					top: -23px;
 
-					.transition(all 0.2s ease);
+					.transition(padding 0.2s ease);
 				}
 
 				table {
@@ -207,10 +207,11 @@
 				.close {
 					color: white;
 					position: absolute;
-					right: 15px;
-					bottom: 15px;
+					right: 0;
+					bottom: 0;
 					font-size: @font-size-base;
 					.transition(opacity 0.2s ease);
+					padding: 15px;
 				}
 
 				&.squashed {
