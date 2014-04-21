@@ -281,24 +281,38 @@
 		.header {
 			width: 100%;
 
-			tr:first-of-type {
-				td:first-of-type {
-					width: 25px;
+			tr {
+				&:first-of-type {
+					td {
+						vertical-align: bottom;
 
-					.date {
-						font-size: 28px;
-						font-weight: bold;
-						margin-left: -5px;
+						&:first-of-type {
+							width: 25px;
+
+							.date {
+								font-size: 42px;
+								font-weight: bold;
+								margin-left: -5px;
+								line-height: 1;
+							}
+						}
+
+						&:last-of-type {
+							text-align: right;
+							vertical-align: middle;
+
+							.total-amount {
+								font-size: 18px;
+								font-weight: bold;
+							}
+						}
 					}
 				}
-				td:last-of-type {
-					text-align: right;
-
-					.total-amount {
-						font-size: 18px;
-						font-weight: bold;
+				&:last-of-type {
+					td {
+						vertical-align: top;
 					}
-				}
+				}			
 			}
 
 			.day {
